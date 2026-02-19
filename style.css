@@ -1,0 +1,36 @@
+/* Base page setup */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7fb;
+    color: #000000;
+}
+
+/* Simple navigation */
+nav {
+    background: #000000;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #dbeafe;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Content area */
+main {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+/* Form basics */
+input, textarea, button {
+    font: inherit;
+}
